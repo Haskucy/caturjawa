@@ -1,18 +1,21 @@
+''' This is the main'''
+
 from CaturJawa import CaturJawa
 from caturjawadict import dict_catur_jawa
-from ternary import ternary_adapter, ternary_to_base10
 
 print("its working")
 
 setup = CaturJawa(0,"WBBBXXXWWW")
-next = setup.change_position("BBBBXWXWXW")
+setup.change_position("BBBBXWXWXW")
 setup.print_position()
 
 catur_dict = dict_catur_jawa()
-print("d")
-no1 = catur_dict["index"][1]
-no1.print_position()
+no1 = catur_dict["regex"]["WBBBWWWXXX"]
+no1obj = catur_dict["index"][no1]
 
+no1_nextmove = no1obj.nextmove
 
-def all_kombination():
-    pass
+for i in no1_nextmove:
+    print("")
+    i.print_position()
+    print(i.regex)

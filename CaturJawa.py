@@ -2,6 +2,7 @@ class CaturJawa:
     index = -1
     board = [["O", "O", "O"],["O", "O", "O"],["O", "O", "O"]]
     regex = "OOOOOOOOO"
+    nextmove = []
 
     def __init__(self, index, regex):
         self.index = index
@@ -10,7 +11,7 @@ class CaturJawa:
     
     def change_position(self, regex):
         self.regex = regex
-        self.regex_to_board()
+        self.board = self.regex_to_board()
 
     def print_position(self):
         print(self.board[0])

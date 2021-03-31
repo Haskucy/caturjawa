@@ -1,6 +1,7 @@
 import CaturJawa
 from CaturJawa import CaturJawa
 from ternary import ternary_adapter, ternary_to_base10
+from rules1 import find_all_next_moves
 
 def list_regex():
     pert = []
@@ -34,6 +35,14 @@ def dict_catur_jawa():
         "index" : dict_catur_index,
         "regex" : dict_catur_regex
     }
+
+    for every_board in dict_catur["index"].values():
+        all_nextmove = find_all_next_moves(every_board.board, every_board.regex[0])
+        list_nextboard = []
+        for every_nextmove in all_nextmove:
+            index_nextboard = dict_catur["regex"][every_nextmove]
+            list_nextboard.append(dict_catur["index"][index_nextboard])
+        every_board.nextmove = list_nextboard
     return dict_catur
 
 """
