@@ -1,4 +1,4 @@
-def print_snapshot(string_state):
+def print_snapshot(state_string):
     """Prints the state of boards visually
 
     Parameters
@@ -10,7 +10,9 @@ def print_snapshot(string_state):
     -------
     N/A
     """
-    
+    string_state = state_string[1:]
+    whose_turn = state_string[0]
+
     if len(string_state) != 9:
         print("failed to process " + string_state)
         print("Input state too short or too long.")
@@ -22,6 +24,7 @@ def print_snapshot(string_state):
     SPACE = " | "
 
     print("String State: " + string_state)
+    print("Turn: " + whose_turn)
     print(UPROW[0] + SPACE + UPROW[1] + SPACE + UPROW[2])
     print(MIDROW[0] + SPACE + MIDROW[1] + SPACE + MIDROW[2])
     print(DOWNROW[0] + SPACE + DOWNROW[1] + SPACE + DOWNROW[2])
