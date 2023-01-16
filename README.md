@@ -1,0 +1,3 @@
+# Catur Jawa
+
+Javanese Chess (or Catur Jawa) is a traditional game that originates from Indonesia. This game is known by most of the Indonesian people, especially on the island of Java. Javanese Chess is played on a 3x3 grid board and can be played by 2 players. Each player is given 3 pieces which are placed horizontally at the start of the game. Players can only move one piece at a time and cannot move to a space that is already occupied. The player wins when they are able to arrange their pieces horizontally, vertically, or diagonally before the other player. A win can also be achieved horizontally as long as the horizontal arrangement is different from the initial position.
