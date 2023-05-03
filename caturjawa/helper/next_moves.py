@@ -10,6 +10,14 @@ def rule1():
     Dict :
         A Dictionary which contains movesets for a certain position for
         no diagonal rule.
+    
+    Notes
+    -------
+    Here is some visualization for the position:
+
+    6 7 8  X X X
+    3 4 5  - - -
+    0 1 2  O O O
     """
 
     NO_DIAGONAL_DICT_RULE = {

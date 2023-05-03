@@ -1,8 +1,6 @@
 import json
 from .next_moves import all_next_moves, rule1
 
-#TODO : save to json
-
 def base10_to_base3(num):
     """Convert base 10 integer to base 3.
 
