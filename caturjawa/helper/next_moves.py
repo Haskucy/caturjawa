@@ -193,6 +193,7 @@ def generating_win_condition(data_all_state):
       elif game_column(string_state, 0, "X") or game_column(string_state, 1, "X") or game_column(string_state, 2, "X"):
         list_win_state.append(i)
 
+    # O wins
     if turn == "X": # When O wins, the X turn state has O lined up
       if game_row(string_state, 1, "O") or game_row(string_state, 2, "O"):
         list_win_state.append(i)
