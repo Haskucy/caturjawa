@@ -1,6 +1,6 @@
 #copas ke main.py
 
-
+### Testing state
 f = open('all_possible_moves.json',)
 data = json.load(f)
 f.close()
@@ -14,3 +14,13 @@ count = 0
 for i in range(len(lenlist)):
     if lenlist[i] == 7:
         print_snapshot(list(data.keys())[i])
+
+
+
+### print next_state turn 1 caturjawa
+f = open('all_possible_moves.json',)
+data = json.load(f)
+f.close()
+
+for i in data["XOOO---XXX"]:
+    print_snapshot(i)
