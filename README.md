@@ -8,6 +8,7 @@ This repository contains a website implementation of the game, an AI that can pl
 
 ## Game Implementation Website
 - TODO: Create Game Implementation Website
+- WIP implementation code pen: https://codepen.io/haskucy/pen/GRwoxaR
 
 ## AI
 - TODO: Create AI
