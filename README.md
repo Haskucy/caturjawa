@@ -31,7 +31,7 @@ Random Play Sampling was used as a more balanced and feasible approach, yielding
 - Maximum depth observed: 460
 - Minimum depth observed: 6
 - Average number of possible moves: 3.219
-- Estimated game state tree size using Random Play Sampling: ${10}^{26.072}$ nodes.
+- Estimated game state tree size using Random Play Sampling: ${10}^{26}$ nodes.
 - Upper bound estimation using Random Play Sampling: ${10}^{388}$ nodes (max branching factor raised to max depth achieved).
 
 Game Outcomes:
