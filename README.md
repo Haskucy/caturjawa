@@ -20,7 +20,7 @@ In this analysis, we investigate the game state tree size of "Catur Jawa" using 
 - Estimated game state tree size using DFS: ${10}^{348}$ nodes.
 - Upper bound estimation for the game tree size: ${10}^{753}$ nodes (using the maximum number of possible moves and maximum depth).
 - More reasonable upper bound estimation: ${10}^{361}$ nodes (considering average branching factor with maximum depth).
-- BFS was used for shallow node observations, with the maximum depth found to be 13.
+- BFS was used for shallow node observations, with the maximum depth found in the first 1 million nodes in BFS search is to be 13.
 - DFS may lead to biased depth measurements in certain situations, hence the need for an alternative approach.
 
 ### Estimation with Random Play Sampling
