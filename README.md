@@ -8,6 +8,7 @@ This repository contains a website implementation of the game, an AI that can pl
 
 ## Game Implementation Website
 - TODO: Create Game Implementation Website
+- WIP implementation code pen: https://codepen.io/haskucy/pen/GRwoxaR
 
 ## AI
 - TODO: Create AI
@@ -20,7 +21,7 @@ In this analysis, we investigate the game state tree size of "Catur Jawa" using 
 - Estimated game state tree size using DFS: ${10}^{348}$ nodes.
 - Upper bound estimation for the game tree size: ${10}^{753}$ nodes (using the maximum number of possible moves and maximum depth).
 - More reasonable upper bound estimation: ${10}^{361}$ nodes (considering average branching factor with maximum depth).
-- BFS was used for shallow node observations, with the maximum depth found to be 13.
+- BFS was used for shallow node observations, with the maximum depth found in the first 1 million nodes in BFS search is to be 13.
 - DFS may lead to biased depth measurements in certain situations, hence the need for an alternative approach.
 
 ### Estimation with Random Play Sampling
@@ -31,7 +32,7 @@ Random Play Sampling was used as a more balanced and feasible approach, yielding
 - Maximum depth observed: 460
 - Minimum depth observed: 6
 - Average number of possible moves: 3.219
-- Estimated game state tree size using Random Play Sampling: ${10}^{26.072}$ nodes.
+- Estimated game state tree size using Random Play Sampling: ${10}^{26}$ nodes.
 - Upper bound estimation using Random Play Sampling: ${10}^{388}$ nodes (max branching factor raised to max depth achieved).
 
 Game Outcomes:
