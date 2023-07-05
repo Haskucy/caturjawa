@@ -19,6 +19,7 @@ This repository contains a website implementation of the game, an AI that can pl
 - What is the Game Tree Complexity of Catur Jawa?
 - What is the Average of Game Length of Catur Jawa?
 - What is the Branching Factor of Catur Jawa?
+- Who is likely to win? Player X or Player O
 
 ## Current Analysis
 
