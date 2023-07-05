@@ -13,7 +13,14 @@ This repository contains a website implementation of the game, an AI that can pl
 ## AI
 - TODO: Create AI
 
-## Analysis
+## Game Complexity
+### Research Question
+- What is the State-space Complexity of Catur Jawa?
+- What is the Game Tree Complexity of Catur Jawa?
+- What is the Average of Game Length of Catur Jawa?
+- What is the Branching Factor of Catur Jawa?
+
+## Current Analysis
 
 In this analysis, we investigate the game state tree size of "Catur Jawa" using Depth-First Search (DFS), Breadth-First Search (BFS), and Random Play Sampling methodologies. The game state tree for "Catur Jawa" was found to be considerably large and complex.
 
